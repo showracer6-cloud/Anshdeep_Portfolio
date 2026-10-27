@@ -1,0 +1,9 @@
+{
+  "name": "anshdeep-manocha-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio of Anshdeep Manocha, second-year B.Tech CSE student at JECRC University, Jaipur.",
+  "scripts": {
+    "start": "python -m http.server 3000"
+  }
+}

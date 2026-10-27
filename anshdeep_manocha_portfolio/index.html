@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Anshdeep Manocha, second-year B.Tech CSE student at JECRC University, Jaipur. Aspiring software developer passionate about programming, problem-solving, and practical development.">
+  <title>Anshdeep Manocha | Student &amp; Aspiring Software Developer</title>
+  <script>
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem('portfolio-theme') === 'light' ? 'light' : 'dark';
+    } catch(e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home" aria-label="Anshdeep Manocha home">AM<span>.</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primary-nav" class="primary-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle visual theme">
+        <span class="theme-toggle-icon">☼</span>
+        <span class="theme-toggle-text">Light</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero section">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> STUDENT · ASPIRING SOFTWARE DEVELOPER</p>
+          <h1>Hi, I'm <span>Anshdeep<br>Manocha.</span></h1>
+          <p class="lead">Second-year B.Tech Computer Science and Engineering student at JECRC University, Jaipur. Passionate about programming, software development, problem-solving, and exploring new technologies through practical projects.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
+            <a class="btn btn-secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <div class="card-top">
+            <span class="card-label">CURRENT FOCUS</span>
+            <span class="status-dot"></span>
+          </div>
+          <p class="hero-card-title">Learning by building.</p>
+          <p>Strengthening core programming skills with Python, web fundamentals, and practical software development at JECRC University.</p>
+          <div class="mini-tags">
+            <span>Python</span>
+            <span>Problem Solving</span>
+            <span>Web Basics</span>
+          </div>
+          <div class="card-decoration">AM</div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Curious mind.<br><span>Practical approach.</span></h2>
+          <p class="section-note">Understanding computer science fundamentals and turning classroom learning into functional, real-world software.</p>
+        </header>
+        <div class="about-grid">
+          <article class="panel">
+            <span class="panel-number">01</span>
+            <h3>Education</h3>
+            <p><strong>B.Tech in Computer Science and Engineering</strong> (2nd Year)<br>JECRC University, Jaipur.<br>Building a rigorous foundation in programming, core algorithms, and software principles.</p>
+          </article>
+          <article class="panel">
+            <span class="panel-number">02</span>
+            <h3>Background</h3>
+            <p>"Hi, I'm Anshdeep Manocha, a second-year B.Tech Computer Science and Engineering student at JECRC University, Jaipur. I'm passionate about programming, software development, problem-solving, and exploring new technologies. I enjoy learning by building practical projects and continuously improving my technical skills."</p>
+          </article>
+          <article class="panel">
+            <span class="panel-number">03</span>
+            <h3>Learning Journey</h3>
+            <p>Dedicated to consistent practice through academic coursework, logic challenges, and hands-on coding repositories that cultivate clean code habits and effective problem-solving.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">02 / SKILLS</p>
+          <h2>Tools for <span>building ideas.</span></h2>
+          <p class="section-note">Core competencies and technical skills demonstrated across coursework and verified project repositories.</p>
+        </header>
+        <div class="card-grid">
+          <article class="skill-card">
+            <span class="skill-index">01</span>
+            <h3>Python</h3>
+            <p>Scripting, dictionary data structures, sequence generation, and mathematical algorithmic implementations.</p>
+            <div class="skill-line"><span style="width:65%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">02</span>
+            <h3>Programming Fundamentals</h3>
+            <p>Control flow, loops, functions, structured data representation, and procedural programming logic.</p>
+            <div class="skill-line"><span style="width:70%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">03</span>
+            <h3>Problem Solving</h3>
+            <p>Breaking down complex tasks, debugging calculation logic, evaluating edge cases, and unit testing.</p>
+            <div class="skill-line"><span style="width:65%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">04</span>
+            <h3>HTML</h3>
+            <p>Semantic document structures, modern web standards, accessibility principles, and input forms.</p>
+            <div class="skill-line"><span style="width:70%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">05</span>
+            <h3>CSS</h3>
+            <p>Responsive styling, Flexbox, CSS Grid layouts, custom CSS variables, and multi-theme design.</p>
+            <div class="skill-line"><span style="width:65%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">06</span>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, interactive event listeners, dynamic UI rendering, and quiz application state.</p>
+            <div class="skill-line"><span style="width:60%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">07</span>
+            <h3>Git and GitHub</h3>
+            <p>Version control management, commit history, repository creation, code tracking, and documentation.</p>
+            <div class="skill-line"><span style="width:65%"></span></div>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">08</span>
+            <h3>Basic UI Development</h3>
+            <p>Creating clean, readable user interfaces with responsive navigation, theme toggles, and interactive widgets.</p>
+            <div class="skill-line"><span style="width:60%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">03 / PROJECTS</p>
+          <h2>Featured <span>Projects.</span></h2>
+          <p class="section-note">Verified repositories and hands-on coding projects across Python, problem solving, and web development.</p>
+        </header>
+
+        <!-- Project Search & Filter Controls -->
+        <div class="project-toolbar">
+          <div class="search-wrap">
+            <span class="search-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </span>
+            <input type="text" id="project-search" class="search-input" placeholder="Search projects by name or technology..." aria-label="Search projects by name or technology">
+          </div>
+          <div class="filter-group" role="tablist" aria-label="Filter projects by technology">
+            <button class="filter-btn active" data-filter="all" type="button">All Projects</button>
+            <button class="filter-btn" data-filter="python" type="button">Python</button>
+            <button class="filter-btn" data-filter="web" type="button">Web &amp; JavaScript</button>
+            <button class="filter-btn" data-filter="problem-solving" type="button">Problem Solving</button>
+          </div>
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card" data-category="python problem-solving" data-title="python programs fibonacci" data-tech="python programming fundamentals problem solving">
+            <div class="project-meta">
+              <span>PROJECT 01</span>
+              <span>Python / Logic</span>
+            </div>
+            <h3>Python Programs</h3>
+            <p>A collection of Python programming exercises focused on core sequence generation, algorithmic logic, and iterative Fibonacci series computation.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Programming Fundamentals</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Python-code-fibonacci-" target="_blank" rel="noopener noreferrer" aria-label="View Python Programs repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="python" data-title="python basic struct dictionary" data-tech="python data structures programming fundamentals">
+            <div class="project-meta">
+              <span>PROJECT 02</span>
+              <span>Python / Data Structures</span>
+            </div>
+            <h3>Python Basic Struct</h3>
+            <p>A Python project demonstrating basic structure-related concepts, working with key-value dictionary structures and formatted string output (f-strings).</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Data Structures</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Python-Basics-struct" target="_blank" rel="noopener noreferrer" aria-label="View Python Basic Struct repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="python problem-solving" data-title="correcting grade student utilities" data-tech="python problem solving debugging unit testing">
+            <div class="project-meta">
+              <span>PROJECT 03</span>
+              <span>Python / Debugging</span>
+            </div>
+            <h3>Correcting Grade</h3>
+            <p>A programming project related to correcting and processing student grades, calculating class averages, identifying top performers, and unit testing grading logic.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Problem Solving</span>
+              <span>Unit Testing</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Correcting-Grade" target="_blank" rel="noopener noreferrer" aria-label="View Correcting Grade repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="web" data-title="quiz application interactive game" data-tech="html css javascript basic ui development">
+            <div class="project-meta">
+              <span>PROJECT 04</span>
+              <span>Web Application</span>
+            </div>
+            <h3>Quiz Application</h3>
+            <p>An interactive quiz application built with vanilla web technologies, featuring dynamic question rendering, event-driven option selection, and real-time score tracking.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Quiz-PE" target="_blank" rel="noopener noreferrer" aria-label="View Quiz Application repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" data-category="web" data-title="reading list book tracker" data-tech="react typescript tailwind css vite">
+            <div class="project-meta">
+              <span>PROJECT 05</span>
+              <span>Web Application</span>
+            </div>
+            <h3>Reading List</h3>
+            <p>A responsive book reading-list application for organizing reading status categories, adding custom books, tracking totals, and filtering reading shelves.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind CSS</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Book-Reading" target="_blank" rel="noopener noreferrer" aria-label="View Reading List repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" data-category="python problem-solving" data-title="python programs factorial algorithms" data-tech="python algorithms programming fundamentals">
+            <div class="project-meta">
+              <span>PROJECT 06</span>
+              <span>Python / Algorithms</span>
+            </div>
+            <h3>Python Programs — Factorial</h3>
+            <p>A Python programming exercise for calculating factorials of positive integers using iterative loop multiplication and fundamental arithmetic control flow.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>Algorithms</span>
+              <span>Programming Fundamentals</span>
+            </div>
+            <a class="btn btn-secondary btn-project" href="https://github.com/showracer6-cloud/Python-Code-Factorial-" target="_blank" rel="noopener noreferrer" aria-label="View Python Programs — Factorial repository on GitHub">
+              View on GitHub <span>↗</span>
+            </a>
+          </article>
+        </div>
+
+        <div id="no-projects" class="no-projects" style="display: none;">
+          <p>No projects match your current search or filter criteria.</p>
+          <button id="clear-search-btn" class="btn btn-secondary btn-sm" type="button">Reset Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Let's build<br><span>something useful.</span></h2>
+          <p class="section-note">Interested in connecting, discussing coursework, or exploring project collaborations? Reach out through any of these three channels.</p>
+        </div>
+        <div class="contact-list">
+          <!-- GitHub Option -->
+          <div class="contact-row">
+            <div class="contact-info">
+              <span>GITHUB</span>
+              <p>github.com/showracer6-cloud</p>
+            </div>
+            <a class="btn btn-secondary contact-btn" href="https://github.com/showracer6-cloud/" target="_blank" rel="noopener noreferrer" aria-label="Visit Anshdeep Manocha's GitHub profile">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+              </svg>
+              Visit GitHub <span>↗</span>
+            </a>
+          </div>
+
+          <!-- Email Option -->
+          <div class="contact-row">
+            <div class="contact-info">
+              <span>EMAIL</span>
+              <p>singhmanochaanshdeep@gmail.com</p>
+            </div>
+            <a class="btn btn-primary contact-btn" href="mailto:singhmanochaanshdeep@gmail.com" aria-label="Send email to singhmanochaanshdeep@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Send Email <span>✉</span>
+            </a>
+          </div>
+
+          <!-- LinkedIn Option -->
+          <div class="contact-row">
+            <div class="contact-info">
+              <span>LINKEDIN</span>
+              <p>anshdeep-singh-manocha-45b46133b</p>
+            </div>
+            <a class="btn btn-secondary contact-btn" href="https://www.linkedin.com/in/anshdeep-singh-manocha-45b46133b/" target="_blank" rel="noopener noreferrer" aria-label="Connect with Anshdeep Manocha on LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"></path>
+              </svg>
+              Connect on LinkedIn <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a class="logo" href="#home">AM<span>.</span></a>
+      <p>© 2026 Anshdeep Manocha. Built with curiosity.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- JARVIS AI CHATBOT WIDGET -->
+  <aside id="jarvis-widget" aria-label="JARVIS AI Portfolio Assistant">
+    <button id="jarvis-toggle" class="jarvis-toggle" type="button" aria-expanded="false" aria-controls="jarvis-modal" aria-label="Chat with JARVIS">
+      <span class="jarvis-status-dot" aria-hidden="true"></span>
+      <span class="jarvis-toggle-icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </span>
+      <span class="jarvis-toggle-label">JARVIS</span>
+    </button>
+
+    <div id="jarvis-modal" class="jarvis-modal" role="dialog" aria-modal="true" aria-labelledby="jarvis-heading" hidden>
+      <div class="jarvis-header">
+        <div class="jarvis-title-group">
+          <span class="jarvis-status-dot" aria-hidden="true"></span>
+          <div>
+            <h3 id="jarvis-heading">JARVIS</h3>
+            <span>AI Portfolio Assistant</span>
+          </div>
+        </div>
+        <button id="jarvis-close" class="jarvis-close-btn" type="button" aria-label="Close JARVIS chat">&times;</button>
+      </div>
+
+      <div id="jarvis-messages" class="jarvis-messages" aria-live="polite">
+        <div class="jarvis-msg jarvis-msg-bot">
+          Greetings! I am <strong>JARVIS</strong>, Anshdeep Manocha's personal AI portfolio assistant. I can answer questions about his education at JECRC University, technical skills, or his 6 featured projects. How may I assist you today?
+        </div>
+      </div>
+
+      <div class="jarvis-suggestions" aria-label="Quick questions for JARVIS">
+        <button class="jarvis-chip" type="button" data-prompt="Tell me about Anshdeep">About Anshdeep</button>
+        <button class="jarvis-chip" type="button" data-prompt="What is Anshdeep's education?">Education</button>
+        <button class="jarvis-chip" type="button" data-prompt="What technical skills does he have?">Skills</button>
+        <button class="jarvis-chip" type="button" data-prompt="What projects has he built?">Projects</button>
+        <button class="jarvis-chip" type="button" data-prompt="How can I contact Anshdeep?">Contact</button>
+      </div>
+
+      <form id="jarvis-form" class="jarvis-input-form">
+        <input type="text" id="jarvis-input" class="jarvis-input" placeholder="Ask JARVIS a question..." autocomplete="off" aria-label="Type your message for JARVIS">
+        <button type="submit" class="jarvis-send-btn" aria-label="Send message to JARVIS">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
